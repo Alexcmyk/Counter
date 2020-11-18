@@ -21,7 +21,7 @@ btns.forEach(function (btn) {
     if (counter < 0) {
       value.style.color = "red";
     }
-    if (counter == 0) {
+    if (counter === 0) {
       value.style.color = "#222";
     }
 
